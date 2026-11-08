@@ -1,0 +1,75 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f4f4f9;
+    text-align: center;
+}
+.secao-titulo {
+    margin-top: 60px;
+}
+
+.imagem img {
+    width: 120px;
+    height: auto;
+    margin-bottom: 15px;
+}
+.titulo h1 {
+    background-color: #2c3e50;
+    color: #ffffff;
+    padding: 10px 40px;
+    display: inline-block;
+    border-radius: 8px;
+}
+#buscar {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.buscar-1 {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.buscar-1 label {
+    font-size: 22px;
+    font-weight: 700;
+    color: #333;
+}
+
+.buscar-1 input {
+    width: 350px;
+    height: 50px;
+    padding: 10px 15px;
+    font-size: 18px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+}
+
+.buscar-1 input:focus {
+    border-color: #2c3e50; /
+}
+.botao {
+    padding: 15px 50px;
+    background-color: #e67e22;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.botao:hover {
+    background-color: #d35400;
+}
